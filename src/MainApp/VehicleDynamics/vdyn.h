@@ -16,6 +16,7 @@ namespace mpc
 	{
 	public:
 		// state-space dynamics of the vehicle model, returns dx/dt
+		// Model reference: http://code.eng.buffalo.edu/dat/sites/model/linear.html
 		array<float, 2> vehdyn(const array<float, 2>& states, const float& input, const float& vx);
 	};
 

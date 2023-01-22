@@ -1,0 +1,9 @@
+See the installation guide at:
+https://casadi.sourceforge.net/api/html/d3/def/chapter2.html
+
+For the casadi core, there are no need for dependencies, so the environment variable step can be skipped.
+
+For the 'cmake ..' step, if the OS is Windows, you need to add the command line arguments:
+cmake -G "Unix Makefiles" ..
+What it does is that, instead of the default behavior (building for Visual Studio solutions), cmake will create
+makefiles like it does in Unix-based system.
