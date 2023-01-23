@@ -22,8 +22,9 @@
  *
  */
 
-//#include <casadi/casadi.hpp>
-#include "../../casadi/casadi/casadi.hpp"
+#include "pch.h"
+#include "framework.h"
+#include "C:/Program Files/casadi-windows-matlabR2016a-v3.5.5/include/casadi/casadi.hpp"
 
 using namespace casadi;
 using namespace std;

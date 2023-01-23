@@ -1,0 +1,32 @@
+ChatGPT says:
+
+1. Open Visual Studio and create a new C++ project or open an existing one.
+
+2. In Solution Explorer, right-click on your project and select Properties.
+
+3. In the Properties window, navigate to Configuration Properties > C/C++ > General.
+
+4. In Additional Include Directories, add the path to the CasADi include directory, for example: C:\CasADi\include.
+
+5. Save the changes and build the project.
+
+
+========================================================
+
+In a casadi forum thread, Joris said:
+
+Dear Pablo,
+
+We do not currently ship Visual-Studio compatible libraries.
+All our official binaries are prepared with MinGW.
+
+Your best bet is to build CasADi yourself using Visual Studio.
+
+Best regards,
+  Joris
+
+
+Thread title: Use CasADi in VS2017
+https://groups.google.com/g/casadi-users/c/sN9Qxym1zRk/m/LYrmJF4lBAAJ
+
+==========================================================

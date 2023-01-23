@@ -1,3 +1,22 @@
+Official instructions for source build:
+https://github.com/casadi/casadi/wiki/SourceBuild
+
+Apparently, building from source in Windows is challenging. Buidling in Ubuntu is easier.
+
+=================Scattered Information on building tips===============
+
+Prerequisites:
+
+1. !!! Download this file from the link, and place it in the casadi/build folder in the coming steps
+https://github.com/casadi/casadi/blob/develop/cmake/FindCASADI.cmake
+(The issue comes from this following thread
+https://groups.google.com/g/casadi-users/c/J97bu3SxzlA/m/yXgtwIGYFAAJ)
+
+2. Make sure cmake, make are up-to-date. For Windows, use this thread to install make.
+https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows
+
+Build CasADi:
+
 See the installation guide at:
 https://casadi.sourceforge.net/api/html/d3/def/chapter2.html
 
@@ -7,3 +26,5 @@ For the 'cmake ..' step, if the OS is Windows, you need to add the command line 
 cmake -G "Unix Makefiles" ..
 What it does is that, instead of the default behavior (building for Visual Studio solutions), cmake will create
 makefiles like it does in Unix-based system.
+
+=======================================================================

@@ -1,0 +1,10 @@
+Two insightful threads on CasADi forum:
+
+1. Cpp linking to CasADi (by jkoendev)
+https://groups.google.com/g/casadi-users/c/T4nvZMVR5xc/m/i8IVFf5hAwAJ
+
+2. Cannot run simple example in Casadi for C++ (by fdev)
+https://groups.google.com/g/casadi-users/c/xIw4U6Rymps/m/fKzyYu4WAQAJ
+
+3. Linker error on Ubuntu 20.04, works on Mac (by erik)
+https://groups.google.com/g/casadi-users/c/RCj45oizZUU/m/TPG4P8OJBAAJ
